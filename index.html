@@ -18,7 +18,7 @@
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   </head>
 
-  <body class="has-fixed-sidenav">
+  <body> <!--class="has-fixed-sidenav"-->
     <header>
 
       <div class="navbar-fixed">
@@ -33,139 +33,30 @@
         </nav>
       </div>
 
-      <ul id="sidenav-left" class="sidenav sidenav-fixed" style="color:#FFFFFF;background-color:#101110;">
-        <li style="color:inherit;"><a href="dashboard.html" class="logo-container" style="color:inherit;">Resources<i class="material-icons left"><!--spa--></i></a></li>
-        <li class="no-padding">
-          <ul class="collapsible collapsible-accordion">
-
-            <li class="bold waves-effect active"><a class="collapsible-header" style="color:inherit;">Learn<i class="material-icons chevron">chevron_left</i></a>
-              <div class="collapsible-body">
-                <ul>
-                  <li><a  style="color:inherit;"href="dashboard.html" class="waves-effect active">Dashboard<i class="material-icons">web</i></a></li>
-                  <li><a  style="color:inherit;"href="pages-fixed-chart.html" class="waves-effect">Fixed Chart<i class="material-icons">list</i></a></li>
-                  <li><a  style="color:inherit;"href="pages-grid.html" class="waves-effect">Grid<i class="material-icons">dashboard</i></a></li>
-                  <li><a  style="color:inherit;"href="pages-chat.html" class="waves-effect">Chat<i class="material-icons">chat</i></a></li>
-                </ul>
-              </div>
-            </li>
-
-            <li class="bold waves-effect"><a  style="color:inherit;"class="collapsible-header">Products<i class="material-icons chevron">chevron_left</i></a>
-              <div class="collapsible-body">
-                <ul>
-                  <li><a  style="color:inherit;"href="line-charts.html" class="waves-effect">Line Charts<i class="material-icons">show_chart</i></a></li>
-                  <li><a  style="color:inherit;"href="bar-charts.html" class="waves-effect">Bar Charts<i class="material-icons">equalizer</i></a></li>
-                  <li><a  style="color:inherit;"href="area-charts.html" class="waves-effect">Area Charts<i class="material-icons">multiline_chart</i></a></li>
-                  <li><a  style="color:inherit;"href="doughnut-charts.html" class="waves-effect">Doughnut Charts<i class="material-icons">pie_chart</i></a></li>
-                  <li><a  style="color:inherit;"href="financial-charts.html" class="waves-effect">Financial Charts<i class="material-icons">euro_symbol</i></a></li>
-                  <li><a  style="color:inherit;"href="interactive-charts.html" class="waves-effect">Interactive Charts<i class="material-icons">touch_app</i></a></li>
-                </ul>
-              </div>
-            </li>
-
-            <li class="bold waves-effect"><a  style="color:inherit;"class="collapsible-header">News<i class="material-icons chevron">chevron_left</i></a>
-              <div class="collapsible-body">
-                <ul>
-                  <li><a  style="color:inherit;"href="fullscreen-table.html" class="waves-effect">Fullscreen with Chart<i class="material-icons">show_chart</i></a></li>
-                  <li><a  style="color:inherit;"href="table-custom-elements.html" class="waves-effect">Table with Custom Elements<i class="material-icons">settings</i></a></li>
-                </ul>
-              </div>
-            </li>
-
-            <li class="bold waves-effect"><a  style="color:inherit;"class="collapsible-header">Jobs<i class="material-icons chevron">chevron_left</i></a>
-              <div class="collapsible-body">
-                <ul>
-                  <li><a href="calendar.html"  style="color:inherit;"class="waves-effect">Calendar<i class="material-icons">cloud</i></a></li>
-                </ul>
-              </div>
-            </li>
-
-            <li class="bold waves-effect"><a  style="color:inherit;"class="collapsible-header">Events<i class="material-icons chevron">chevron_left</i></a>
-              <div class="collapsible-body">
-                <ul>
-                  <li><a style="color:inherit;" href="header-tabbed.html" class="waves-effect">Tabbed<i class="material-icons">tab</i></a></li>
-                  <li><a  style="color:inherit;"href="header-metrics.html" class="waves-effect">Metrics<i class="material-icons">web</i></a></li>
-                  <li><a style="color:inherit;" href="header-search.html" class="waves-effect">Search<i class="material-icons">search</i></a></li>
-                </ul>
-              </div>
-            </li>
-
-            <li class="bold waves-effect"><a  style="color:inherit;"class="collapsible-header">Community<i class="material-icons chevron">chevron_left</i></a>
-              <div class="collapsible-body">
-                <ul>
-                  <li><a  style="color:inherit;"href="log-in.html" class="waves-effect">Log In<i class="material-icons">person</i></a></li>
-                  <li><a  style="color:inherit;"href="settings.html" class="waves-effect">Settings<i class="material-icons">settings</i></a></li>
-                </ul>
-              </div>
-            </li>
-          </ul>
-        </li>
-      </ul>
-
-
-      <div id="dropdown1" class="dropdown-content notifications">
-        <div class="notifications-title">notifications</div>
-        <div class="card">
-          <div class="card-content"><span class="card-title">Joe Smith made a purchase</span>
-            <p>Content</p>
-          </div>
-          <div class="card-action"><a href="#!">view</a><a href="#!">dismiss</a></div>
-        </div>
-        <div class="card">
-          <div class="card-content"><span class="card-title">Daily Traffic Update</span>
-            <p>Content</p>
-          </div>
-          <div class="card-action"><a href="#!">view</a><a href="#!">dismiss</a></div>
-        </div>
-        <div class="card">
-          <div class="card-content"><span class="card-title">New User Joined</span>
-            <p>Content</p>
-          </div>
-          <div class="card-action"><a href="#!">view</a><a href="#!">dismiss</a></div>
-        </div>
+<ul id="slide-out" class="sidenav">
+    <li><div class="user-view">
+      <div class="background">
+        <img src="images/office.jpg">
       </div>
-      <div id="chat-dropdown" class="dropdown-content dropdown-tabbed">
-        <ul class="tabs tabs-fixed-width">
-          <li class="tab col s3"><a href="#settings">Settings</a></li>
-          <li class="tab col s3"><a href="#friends" class="active">Friends</a></li>
-        </ul>
-        <div id="settings" class="col s12">
-          <div class="settings-group">
-            <div class="setting">Night Mode
-              <div class="switch right">
-                <label>
-                  <input type="checkbox"><span class="lever"></span>
-                </label>
-              </div>
-            </div>
-            <div class="setting">Beta Testing
-              <label class="right">
-                <input type="checkbox"><span></span>
-              </label>
-            </div>
-          </div>
-        </div>
-        <div id="friends" class="col s12">
-          <ul class="collection flush">
-            <li class="collection-item avatar">
-              <div class="badged-circle online"><img src="img/portrait1.jpg" alt="avatar" class="circle"></div><span class="title">Jane Doe</span>
-              <p class="truncate">Lo-fi you probably haven't heard of them</p>
-            </li>
-            <li class="collection-item avatar">
-              <div class="badged-circle"><img src="img/portrait2.jpg" alt="avatar" class="circle"></div><span class="title">John Chang</span>
-              <p class="truncate">etsy leggings raclette kickstarter four dollar toast</p>
-            </li>
-            <li class="collection-item avatar">
-              <div class="badged-circle"><img src="img/portrait3.jpg" alt="avatar" class="circle"></div><span class="title">Lisa Simpson</span>
-              <p class="truncate">Raw denim fingerstache food truck chia health goth synth</p>
-            </li>
-          </ul>
+      <a href="#user"><img class="circle" src="images/yuna.jpg"></a>
+      <a href="#name"><span class="white-text name">John Doe</span></a>
+      <a href="#email"><span class="white-text email">jdandturk@gmail.com</span></a>
+    </div></li>
+    <li><a href="#!"><i class="material-icons">cloud</i>First Link With Icon</a></li>
+    <li><a href="#!">Second Link</a></li>
+    <li><div class="divider"></div></li>
+    <li><a class="subheader">Subheader</a></li>
+    <li><a class="waves-effect" href="#!">Third Link With Waves</a></li>
+  </ul>
+  <a href="#" data-target="slide-out" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+
         </div>
       </div>
     </header>
   
   <main>
 
-  <div class="container">
+  
     <div class="masonry row">
       
         <div class="col s12">
@@ -299,20 +190,20 @@
   </ul>
 </div>
 
-    <div class="col s12" style="height: 0px;"></div>
+    <div class="col s12" style="height: 20px;"></div>
 
      <div class="col s12">
       <div class="card" style="color:#ffffff;background-color: black;background-image: url(img/placeholder.png); background-size: contain;">
         <center><h5>Join the community!</h5></center>
         <div class="card-metrics card-metrics-toggle card-metrics-centered">
-          <div class="card-metric waves-effect">
+          <div class="card-metric">
 
         <a href="https://discord.gg/DrPFqa2"><img width="64" height="64" style="filter: invert(1) brightness(100%) sepia(10%) saturate(100%);" src="img/icons8_discord_logo_96px.png"/></a><br>Discord
           </div>
-          <div class="card-metric waves-effect">
+          <div class="card-metric">
          <a href="https://reddit.com/r/permaweb"><img width="64" height="64" style="filter: invert(1) brightness(100%) sepia(10%) saturate(100%);" src="img/icons8_reddit_96px.png"/></a><br>Reddit
           </div>
-          <div class="card-metric waves-effect">
+          <div class="card-metric">
           <a href="https://github.com/Permaweb/"><img width="64" height="64" style="filter: invert(1) brightness(100%) sepia(10%) saturate(100%);" src="img/icons8_github_2_96px.png"/></a><br>GitHub
           </div>
         </div>
@@ -320,7 +211,8 @@
     </div>
 
 
-    <div class="col s12" style="height: 0px;"></div>
+    <div class="col s12" style="height: 20px;">
+    </div>
 
 
      
@@ -341,12 +233,11 @@
 
           <li class="collection">
             <a href="#!" class="collection-item" style="background-color: black; color:#AAEEEE;">IPFS Camp</a>
-            <!--<a href="#!" class="collection-item active">Alvin</a>-->
             <a href="#!" class="collection-item" style="background-color: black; color:#AAEEEE;">IPFS Meetup 1</a>
             <a href="#!" class="collection-item" style="background-color: black; color:#AAEEEE;">Lab Day</a>
             <a href="#!" class="collection-item" style="background-color: black; color:#AAEEEE;">IPFS Meetup 2</a>
             <a href="#!" class="collection-item" style="background-color: black; color:#AAEEEE;">IPFS Meetup 3</a>
-            <a href="#!" class="collection-item" style="background-color: black; color:#AAEEEE;">IPFS Meetup 4</a>
+            <!--<a href="#!" class="collection-item active">Alvin</a>-->
           </li>
           </div>
         </div>
@@ -365,30 +256,31 @@
                 <li><a href="#!">Hide this Card</a></li>
                 <li><a href="#!">Learn More</a></li>
               </ul>
-            </div>          <li class="collection">
+            </div>
+
+          <li class="collection">
             <a href="#!" class="collection-item" style="background-color: black; color:#AAEEEE;">Job 1</a>
-            <!--<a href="#!" class="collection-item active">Alvin</a>-->
             <a href="#!" class="collection-item" style="background-color: black; color:#AAEEEE;">Job 2</a>
             <a href="#!" class="collection-item" style="background-color: black; color:#AAEEEE;">Job 3</a>
             <a href="#!" class="collection-item" style="background-color: black; color:#AAEEEE;">Job 4</a>
             <a href="#!" class="collection-item" style="background-color: black; color:#AAEEEE;">Job 5</a>
-            <a href="#!" class="collection-item" style="background-color: black; color:#AAEEEE;">Job 6</a>
+            <!--<a href="#!" class="collection-item active">Alvin</a>-->
           </li>
 
         </div>
            
     </div>    
   
+    <div class="col s12" style="height: 20px;">  <div class="section">
+    <h5></h5>
+    <p></p>
+  </div></div>
 
 
 
     </div>
-    </div>
+
     </main>
-
-    <!-- adding this so the layout stops overflowing... -->
-    <div class="col s12" style="height: 1px;"></div>
-    <!-- -->
 
 <footer class="page-footer" style="background-color: black; color:#FFFFFF;">
   <div class="container" style="background-color: black; color:#FFFFFF;">
