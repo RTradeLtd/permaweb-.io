@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="240"
+   height="293"
+   viewBox="0 0 240 293"
+   version="1.1"
+   id="svg15"
+   sodipodi:docname="riot.svg"
+   inkscape:version="0.92.4 (unknown)">
+  <metadata
+     id="metadata21">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title>animatedLogo-0</dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs19" />
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1920"
+     inkscape:window-height="1037"
+     id="namedview17"
+     showgrid="false"
+     inkscape:pagecheckerboard="true"
+     inkscape:zoom="2.278187"
+     inkscape:cx="114.63683"
+     inkscape:cy="125.12471"
+     inkscape:window-x="1920"
+     inkscape:window-y="43"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg15">
+    <inkscape:grid
+       type="xygrid"
+       id="grid4763"
+       empspacing="4" />
+  </sodipodi:namedview>
+  <!-- Generator: Sketch 52.6 (67491) - http://www.bohemiancoding.com/sketch -->
+  <title
+     id="title2">animatedLogo-0</title>
+  <desc
+     id="desc4">Created with Sketch.</desc>
+  <path
+     style="fill:none;fill-rule:evenodd;stroke:#000101;stroke-width:10;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     inkscape:connector-curvature="0"
+     id="Stroke-3"
+     d="m 87.60898,85.366999 v 41.253721 l 41.9579,-0.0431 c 0.53283,0 1.019,-0.0144 1.50271,-0.0455 11.03212,-0.72602 19.65549,-9.75693 19.65549,-20.55857 0,-11.364718 -9.47049,-20.606491 -21.11645,-20.606491 z M 46.112691,289.12688 c -22.916263,0 -41.4962877,-18.12892 -41.4962877,-40.49415 v -77.17611 c -0.1497795,-1.39933 -0.2308077,-2.82262 -0.2308077,-4.26267 -0.00246,-1.46642 0.076117,-2.91367 0.2308077,-4.34174 V 44.872843 c 0,-22.365234 18.5800247,-40.496552 41.4962877,-40.496552 h 83.495939 c 57.40729,0 104.11148,45.576292 104.11148,101.597199 0,53.263 -42.63068,97.785 -97.05221,101.35999 -2.31298,0.15575 -4.69718,0.23482 -7.05927,0.23482 l -41.99965,0.0407 v 41.0237 c 0,22.36523 -18.577569,40.49415 -41.496289,40.49415 z" />
+  <path
+     style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1"
+     inkscape:connector-curvature="0"
+     id="Combined-Shape"
+     d="m 80.306369,21.647887 c 6.361946,8.858396 8.805071,19.607318 6.880036,30.253208 C 85.258915,62.554173 79.194073,71.834283 70.109086,78.037796 51.352273,90.844971 25.406044,86.385822 12.2721,68.096361 5.9101545,59.237965 3.4670298,48.491439 5.3945201,37.840757 7.319555,27.190075 13.384397,17.907569 22.471839,11.706452 41.228652,-1.1007233 67.172426,3.3584261 80.306369,21.647887 Z M 192.56316,289.10364 c -13.07747,0 -25.94378,-6.01422 -34.01959,-17.25914 L 99.8963,190.17091 c -13.151131,-18.31582 -8.596361,-43.56836 10.17027,-56.3995 18.76664,-12.84072 44.64412,-8.39355 57.79525,9.92227 l 58.64727,81.6736 c 13.15358,18.31581 8.59881,43.56835 -10.16782,56.39949 -7.24835,4.95754 -15.55497,7.33687 -23.77811,7.33687 z" />
+</svg>
