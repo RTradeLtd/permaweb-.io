@@ -1,6 +1,0 @@
-v1.0.2 (October 18th, 2018)
-- Migrated to Materialize v1.0.0
-- Fixed missing element Chart.js errors
-
-v1.0.1 (June 20th, 2018)
-- Fixed some javascript file paths
