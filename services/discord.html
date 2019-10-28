@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset='utf-8' />
+		<title>Discord bridge</title>
+		<link rel="stylesheet" href="css/page.css" />
+	</head>
+
+	<body>
+		<header>
+			<a href="index.html"><img src="images/permaweb-dark-transparent.svg" /></a>
+			<h1><a href="index.html">Permaweb.io</a></h1>
+			<div class="header-links">
+				<p><a href="https://riot.permaweb.io/#/room/#help:permaweb.io">#help:permaweb.io</a></p>
+			</div>
+		</header>
+
+		<main>
+			<h1>Discord bridge</h1>
+			<p>
+			Help with the discord bridge can be found at <a
+				href="https://riot.permaweb.io/#/room/#help:permaweb.io">#help:permaweb.io</a>
+			</p>
+			<h2>Adding the bridge to your room</h2>
+			<ol>
+				<li>
+					Invite the bridge to your Discord server using 
+					<a href="https://discordapp.com/api/oauth2/authorize?client_id=598683285270429709&scope=bot&permissions=607251456">this link</a>. 
+					The bridge will need all the permissions selected.
+				</li>
+				<li>
+					Invite <a href="https://matrix.to/#/@discord:permaweb.io">@discord:permaweb.io</a> 
+					to your Matrix room. The bot should have permissions to invite users.
+				</li>
+				<li>Open the text channel you'd like to bridge in the Discord web application.</li>
+				<li>
+					In the address bar there should be a URL like 
+					<code>https://discordapp.com/channels/ServerID/ChannelID</code> 
+					- use that as a reference to say in your Matrix room 
+					<code>!discord bridge ServerID/ChannelID</code>
+				</li>
+				<li>
+					The bridge will ask for confirmation, and after 
+					approved your room should be bridged to Discord.
+				</li>
+			</ol>
+		</main>
+	</body>
+</html>
+
